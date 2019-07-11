@@ -1,5 +1,5 @@
 # NKN-Check-Nodes
-This is just an unofficial script on Powershell I have created in order to input a bunch of ip's and get at a glance the status provided by nknc.exe
+This is just an unofficial script on Powershell I have created in order to input a bunch of ip's and get at a glance the status provided by nknc.exe. The script also export a csv file with all the processed data so you can import it with Ms Excel and play with the data.
 
 You need to have the latest NKN version on windows. Download windows-amd64.zip version for x64 architecture https://github.com/nknorg/nkn/releases
 
