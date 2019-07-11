@@ -16,7 +16,7 @@ Write-Host "Processing data...Messages below show IP's with no connection." -For
 #processing blocks rewarded
 $BlocksList = Import-CSV ".\$IPList" | ForEach {./nknc --ip $_.ip info -s} | sls proposalSubmitted
 $i=0;for ($i=0; $i -le $BlocksList.Length-1; $i++) {$BlocksList[$i] = $BlocksList[$i] -replace ".*:" ; $BlocksList[$i] = $BlocksList[$i].Trim(","," ")}
-Write-Host "Blocks Mined processed.." -ForegroundColor White -BackgroundColor Blue
+Write-Host "Blocks Proposed processed.." -ForegroundColor White -BackgroundColor Blue
 
 #processing # connections
 $ConnectionsList = Import-CSV ".\$IPList" | ForEach {./nknc --ip $_.ip info --connections} | sls result
