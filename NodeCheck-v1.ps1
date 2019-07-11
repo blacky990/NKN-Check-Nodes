@@ -13,7 +13,7 @@ if (-not $IPList.EndsWith(".csv")) {$IPList = $IPList + ".csv"}
 $Region= Read-Host -Prompt 'Region of the IP List (Enter for none)' 
 Write-Host "Processing data...Messages below show IP's with no connection." -ForegroundColor White -BackgroundColor Red
 
-#processing blocks rewarded
+#processing blocks proposed
 $BlocksList = Import-CSV ".\$IPList" | ForEach {./nknc --ip $_.ip info -s} | sls proposalSubmitted
 $i=0;for ($i=0; $i -le $BlocksList.Length-1; $i++) {$BlocksList[$i] = $BlocksList[$i] -replace ".*:" ; $BlocksList[$i] = $BlocksList[$i].Trim(","," ")}
 Write-Host "Blocks Proposed processed.." -ForegroundColor White -BackgroundColor Blue
