@@ -6,7 +6,7 @@ You need to have the latest NKN version on windows. Download windows-amd64.zip v
 Download, change the extension of the 2 files in order to have "nknc.exe" & "nknd.exe"
 
 You also need the file config.json on the same folder.
-Download Source code (zip) where you got windows-amd64, extract it and get the file config.mainnet.json. After that, just rename config.mainnet.json to config.json and place it on the same folder than nknc.exe
+Download Source code (zip) where you got windows-amd64, extract it and get the file config.mainnet.json. After that, just rename config.mainnet.json to config.json and place it on the same folder where nknc.exe.
 
 This is a beta version. In case the script detects an ip address with no connection, the script won't skip that cell on the array. Therefore the final data may not correspond with the ip address because has been misplaced on the wrong row. If anyone knows how to fix it, just let me know.
 
@@ -14,6 +14,6 @@ If all nodes have connection, the script gives the correct data.
 
 Note: The file with the ip's (IPList.csv) need to have "ip" on the first row and ip addresses on each row. 
 Blocks Proposed counter (Rewarded & Refused) restarts if Node does. 
-Current Version gets the Version of your local Windows nknc.exe
+Current Version gets the Version of your local Windows nknc.exe.
 
 Enjoy!
