@@ -16,4 +16,13 @@ Note: The file with the ip's (IPList.csv) need to have "ip" on the first row and
 Blocks Proposed counter (Rewarded & Refused) restarts if Node does. 
 Current Version gets the Version of your local Windows nknc.exe.
 
+---
+
+NodeCheck-v2.ps1
+Version 2 Changelog:
+Faster script. Now gets info -s just once
+Fixed when script found nodes with no connection and data was misplaced regarding to the ip
+Added Publickey Value in order to compare with Block Signer and see which node got the reward
+
+
 Enjoy!
