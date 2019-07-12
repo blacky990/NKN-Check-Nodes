@@ -20,9 +20,12 @@ Current Version gets the Version of your local Windows nknc.exe.
 
 NodeCheck-v2.ps1
 Version 2 Changelog:
-Faster script. Now gets info -s just once
-Fixed when script found nodes with no connection and data was misplaced regarding to the ip
-Added Publickey Value in order to compare with Block Signer and see which node got the reward
+
+Faster script. Now gets info -s just once.
+
+Fixed when script found nodes with no connection and data was misplaced regarding to the ip.
+
+Added Publickey Value in order to compare with Block Signer and see which node got the reward.
 
 
 Enjoy!
