@@ -179,7 +179,7 @@ function Get-Blocks {
                                         }
 
                                 $BlocksHeight = $BlocksHeight | Select -Unique
-                                Write-Host "Did you get errors? Would you like to repeat que query?" -ForegroundColor yellow -BackgroundColor Red
+                                Write-Host "Did you get errors? Would you like to repeat the query?" -ForegroundColor yellow -BackgroundColor Red
                                 $Query = Read-Host -Prompt "Yes/No (y/n)"
                                 if (($Query -eq 'y') -or ($Query -eq 'Yes') -or ($Query -eq 'yes') -or ($Query -eq 'Y') -or ($Query -eq 'YES')) {Get-Blocks}
                     
