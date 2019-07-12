@@ -186,7 +186,7 @@ function Get-Blocks {
                     Return $BlocksHeight
                     }
 $BlocksQuery = Get-Blocks
-
+$BlocksQuery = $BlocksQuery | Select -Unique
 $Blocks = $BlocksQuery | Select-Object @{Name='Blocks';Expression={$_}}
 $Blocks | Export-Csv .\ExportBlocks.csv -NoType
 
