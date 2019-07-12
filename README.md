@@ -27,5 +27,8 @@ Fixed when script found nodes with no connection and data was misplaced regardin
 
 Added Publickey Value in order to compare with Block Signer and see which node got the reward.
 
+NodeCheck-Reward-v3.ps1
+Version 3 Changelog:
+Added features to see Rewards per node
 
 Enjoy!
