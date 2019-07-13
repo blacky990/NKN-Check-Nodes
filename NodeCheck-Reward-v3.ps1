@@ -1,4 +1,4 @@
-﻿#NodeCheck v1.0 for NKN network (nkn.org) created by blacky990 (July 2019)
+﻿#NodeCheck-Reward v3.0 for NKN network (nkn.org) created by blacky990 (July 2019)
 #IPList.csv need to have "ip" on the first row and ip addresses on each row
 
 #cleaning variables for debugging
